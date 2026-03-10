@@ -1,4 +1,4 @@
-🛒 Sistema de Caixa de Supermercado
+# 🛒 Sistema de Caixa de Supermercado
 
 Este projeto foi desenvolvido como parte da disciplina de Engenharia de Software, com o objetivo de aplicar na prática conceitos de desenvolvimento de sistemas e organização de projetos.
 
@@ -6,17 +6,17 @@ A aplicação simula o funcionamento de um caixa de supermercado, permitindo reg
 
 Durante o desenvolvimento do projeto, foram aplicados conceitos importantes da engenharia de software, como estruturação do sistema, modularização de componentes, organização do código e uso de ferramentas modernas de desenvolvimento.
 
-🚀 Tecnologias utilizadas
+## 🚀 Tecnologias utilizadas
 
-React
+* React
 
-JavaScript
+* JavaScript
 
-Vite
+* Vite
 
-HTML
+* HTML
 
-CSS
+* CSS
 
 ### 🎯 Objetivo do projeto
 
@@ -29,7 +29,7 @@ Este documento mostra os principais comandos do **Git** usados no desenvolviment
 
 ---
 
-# 📥 Clonar o repositório (primeira vez)
+## 📥 Clonar o repositório (primeira vez)
 
 Usado quando você ainda **não tem o projeto no computador**.
 
@@ -45,7 +45,7 @@ cd nome-do-projeto
 
 ---
 
-# 🔄 Atualizar o projeto
+## 🔄 Atualizar o projeto
 
 Baixa a **versão mais recente do repositório**.
 
@@ -57,7 +57,7 @@ Use esse comando **antes de começar a programar**, para evitar conflitos.
 
 ---
 
-# 📁 Verificar arquivos modificados
+## 📁 Verificar arquivos modificados
 
 Mostra quais arquivos foram alterados.
 
@@ -67,7 +67,7 @@ git status
 
 ---
 
-# ➕ Adicionar arquivos para commit
+## ➕ Adicionar arquivos para commit
 
 Adicionar todos os arquivos modificados:
 
@@ -83,7 +83,7 @@ git add nome-do-arquivo
 
 ---
 
-# 💾 Salvar alterações (commit)
+## 💾 Salvar alterações (commit)
 
 Salva suas mudanças localmente.
 
@@ -99,7 +99,7 @@ git commit -m "Adiciona componente de pagamento"
 
 ---
 
-# 🚀 Enviar alterações para o GitHub
+## 🚀 Enviar alterações para o GitHub
 
 Envia seus commits para o repositório online.
 
@@ -109,7 +109,7 @@ git push origin main
 
 ---
 
-# 🔁 Fluxo de trabalho recomendado
+## 🔁 Fluxo de trabalho recomendado
 
 Sempre siga esta ordem:
 
@@ -123,7 +123,7 @@ git push
 ---
 
 
-# 🛠 Comando útil
+### 🛠 Comando útil
 
 Ver histórico de commits:
 
