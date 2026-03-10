@@ -1,0 +1,214 @@
+.card {
+    background-color: #001f7d;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    height: 450px;
+    position: relative;
+    top: 30px;
+}
+
+.searchContainer {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.searchInput {
+    width: 85%;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    outline: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.searchInput:focus {
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+.searchButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+
+    width: 55px;
+    height: 43px;
+    background-color: #0056b3;
+    color: white;
+    transition: all 0.2s ease;
+
+    font-size: 34px;
+    line-height: 0;
+}
+
+.searchButton:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #01490d;
+    color: white;
+    transform: scale(1.05);
+}
+
+.searchButton:active {
+    transform: scale(0.95);
+}
+
+
+.title {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.tableRolagem {
+    min-height: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #0056b3;
+    color: white;
+    z-index: 1;
+}
+
+.table tbody th {
+    border-bottom: #0056b3 solid 1px;
+    color: rgb(0, 0, 0);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tbody tr td {
+    color: black;
+}
+
+.table tbody tr {
+    height: 40px;
+}
+
+.table thead tr {
+    height: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.gridPagamento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btnPagamento {
+    padding: 12px 22px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.btnPagamento:hover {
+    background-color: #6b6b6b;
+    transform: scale(1.05);
+}
+
+.btnPagamento:active {
+    transform: scale(0.95);
+}
+
+.btnPagamento:focus {
+    background-color: #0056b3;
+    outline: none;
+    color: white;
+}
+
+.totalBox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.totalBox p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.btnConfirma {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.btnConfirma:hover {
+    background-color: #188d09;
+    transform: scale(1.05);
+}
+
+.btnConfirma:active {
+    transform: scale(0.95);
+}
+
+.totais {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.removeButton {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.removeButton:hover {
+    background-color: #dc2626;
+    transform: scale(1.05);
+}
+
+.removeButton:active {
+    transform: scale(0.95);
+}

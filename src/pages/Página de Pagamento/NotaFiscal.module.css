@@ -1,0 +1,26 @@
+.notaFiscal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+}
+
+.notaFiscal div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.containerNotaFiscal {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

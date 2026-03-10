@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+.teste {
+    background: #031d76;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    height: 180px;
+    width: 260px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 40px;
+}
+
+.titulo {
+    padding-bottom:10px;
+    font-size: 30px;
+}
+
+.valor {
+    border-radius: 8px;
+    width: 250px;
+    height: 30px;
+    padding-left: 8px;
+    margin-bottom: 30px;
+    border: none;
+}

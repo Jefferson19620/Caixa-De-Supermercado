@@ -1,0 +1,45 @@
+.Header {
+    position: relative;
+    top: 20px;
+    border-radius: 12px;
+    width: 100%;
+    background: linear-gradient(to right,#254bbe,#031e76);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    justify-self: center;
+    align-items: center;
+    border: 1px solid rgb(0, 27, 97);
+    box-shadow: 5px 5px 0 rgb(0, 27, 97);
+}
+
+.Header h1 {
+    color: white;
+    text-shadow: 1px 4px 0 rgb(0, 27, 97);
+}
+
+.Header h1:first-of-type {
+    padding-left: 25px;
+}
+
+.Header span {
+    color: rgb(0, 162, 255);
+}
+
+.caixaInformations {
+    display: flex;
+    gap: 15px;
+}
+
+.caixaInformations h1 {
+    font-size: 25px;
+}
+
+.caixaInformations h1 span {
+    font-size: 35px;
+}
+
+.caixaInformations h1:last-of-type {
+    padding-right: 25px;
+}

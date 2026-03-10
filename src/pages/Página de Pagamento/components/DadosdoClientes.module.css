@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #031d76;
+    height: 260px;
+    width: 300px;
+    position: relative;
+    top: 30px;
+}
+
+.dados{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.inputsConteiner{
+    background-color: #ebebeb;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 12px;
+    padding-left: 8px;
+}
+
+.inputsConteiner::placeholder{
+    color: #7b7b7b;
+    font-weight: 500;
+    font-size: 17px;
+}
